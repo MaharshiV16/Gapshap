@@ -1,0 +1,22 @@
+.auth {
+	padding-top: 5rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	row-gap: 1rem;
+}
+
+.auth-heading {
+	font-size: 1.5rem;
+}
+
+.auth button {
+	width: 200px;
+	height: 50px;
+	border: none;
+	background-color: #3b5998;
+	color: white;
+	border-radius: 8px;
+	font-size: 18px;
+	cursor: pointer;
+}
