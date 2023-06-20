@@ -3,7 +3,6 @@
 	flex-direction: column;
 	align-items: center;
 	font-family: sans-serif;
-	width: 90%;
 	margin: 0 auto;
 	border-radius: 5px;
 	overflow: hidden;
@@ -38,12 +37,13 @@
 	align-items: flex-start;
 	margin-bottom: 10px;
 	margin-left: 10px;
+	font-size: 0.75rem;
 }
 
 .user {
-	font-weight: bold;
-	margin-right: 10px;
+	font-size: 0.75rem;
 	color: #fff;
+	margin-right: 0.25rem;
 }
 
 .new-message-form {
@@ -57,7 +57,7 @@
 	border: none;
 	outline: none;
 	background: transparent;
-	font-size: 16px;
+	font-size: 0.75rem;
 	color: #fff;
 	padding: 10px;
 	border-radius: 5px 0 0 5px;
@@ -68,7 +68,7 @@
 	outline: none;
 	background: #3b5998;
 	color: #fff;
-	font-size: 16px;
+	font-size: 0.75rem;
 	font-weight: bold;
 	margin: 0.5rem 1rem;
 }

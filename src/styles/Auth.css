@@ -11,6 +11,10 @@
 	font-size: 1.5rem;
 }
 
+.gicon {
+	margin-right: 0.5rem;
+}
+
 .auth button {
 	width: 200px;
 	height: 50px;
@@ -18,6 +22,6 @@
 	background-color: #3b5998;
 	color: white;
 	border-radius: 8px;
-	font-size: 18px;
+	font-size: 14px;
 	cursor: pointer;
 }

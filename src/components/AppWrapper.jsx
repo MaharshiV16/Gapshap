@@ -1,5 +1,6 @@
 import { auth } from "../firebase-config.js";
 import { signOut } from "firebase/auth";
+import icon from "../../public/gapshap.svg";
 
 import Cookies from "universal-cookie";
 const cookies = new Cookies();
@@ -15,7 +16,8 @@ const AppWrapper = ({ children, isAuth, setIsAuth, setIsInChat }) => {
 	return (
 		<div className="App">
 			<div className="app-header">
-				<h1> Chat App </h1>
+				<img src={icon} className="header-icon" />
+				<h1>Gapshap</h1>
 			</div>
 
 			<div className="app-container">{children}</div>

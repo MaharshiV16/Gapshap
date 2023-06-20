@@ -23,7 +23,9 @@ const Auth = ({ setIsAuth }) => {
 				<p className="auth-heading">Sign in with Google to continue</p>
 			</div>
 			<div>
-				<button onClick={signInWithGoogle}>Sign in with Google</button>
+				<button onClick={signInWithGoogle}>
+					<i className="fa fa-google gicon"></i> Sign in with Google
+				</button>
 			</div>
 		</div>
 	);
